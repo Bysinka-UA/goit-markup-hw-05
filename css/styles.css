@@ -514,6 +514,16 @@ max-width: 264px;
   background-color: #31d0aa;
 }
 
+.footer-button:hover,
+.footer-button:focus {
+background-color: #31d0aa;
+}
+
+.footer-email-link:hover,
+.footer-email-link:focus {
+border-color:#31d0aa;
+}
+
 .footer-social-icon {
   fill: #F4F4FD;
 }
@@ -521,7 +531,17 @@ max-width: 264px;
 .footer-email {
     display: flex;
     gap: 24px;
+    margin-left: 80px;
 }
+.footer-text-subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-left: 80px;
+  }
 
 .footer-email-link {
     width: 264px;
@@ -558,7 +578,8 @@ max-width: 264px;
 .footer-button-send {
     margin-left: 16px;
     fill: #f4f4fd;
-}
+
+  }
 
 /* modal */
 
