@@ -528,11 +528,15 @@ border-color:#31d0aa;
   fill: #F4F4FD;
 }
 
+.footer-email-container {
+  margin-left: auto;
+}
+
 .footer-email {
     display: flex;
     gap: 24px;
-    margin-left: 80px;
 }
+
 .footer-text-subscribe {
   margin-bottom: 16px;
   font-weight: 500;
@@ -540,7 +544,6 @@ border-color:#31d0aa;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  margin-left: 80px;
   }
 
 .footer-email-link {
@@ -558,6 +561,9 @@ border-color:#31d0aa;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-email-link::placeholder {
+color: #fff;
+}
 .footer-button {
     min-width: 165px;
     height: 40px;
@@ -574,6 +580,7 @@ border-color:#31d0aa;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-button-send {
@@ -601,7 +608,7 @@ border-color:#31d0aa;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    }
+}
 
 .modal {
     position: absolute;
@@ -721,6 +728,10 @@ border-color:#31d0aa;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-textarea-box::placeholder {
+color: rgba(46, 47, 66, 0.4);
+}
+
 
 .modal-textarea-box:focus {
     border-color: #4D5AE5;
